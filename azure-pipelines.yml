@@ -29,7 +29,7 @@ stages:
         tags: |
           $(tag)
 - stage: Provision
-  displyName: 'Terrforming on Azure...'
+  displayName: 'Terrforming on Azure...'
   dependsOn: Build
   jobs:
   - job: Provision
